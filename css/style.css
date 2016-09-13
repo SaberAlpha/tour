@@ -172,9 +172,19 @@
     	float: left;
     	position: relative;
     }
+    #tour .imgbox {
+        overflow: hidden;
+    }
+
     #tour figure img {
     	vertical-align: middle;
+        transition: all ease .2s;
     }
+    #tour figure img:hover {
+        transition: all ease .5s;
+        transform: scale(2);
+    }
+
     #tour figure figcaption {
     	color: #777;
     	font-size: 14px;
